@@ -1,15 +1,5 @@
-{
-  "name": "minha-fabrica-de-sites",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "13.x",
-    "react": "18.x",
-    "react-dom": "18.x"
-  }
+import '../styles/globals.css'
+
+export default function App({ Component, pageProps }) {
+  return <Component {...pageProps} />
 }
